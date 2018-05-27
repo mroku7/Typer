@@ -9,6 +9,7 @@ if(isset($_POST['fixNr'])){
     try{
         require_once 'includes/connect.php';
         $connect = new mysqli($host, $db_user, $db_password, $db_name);
+        $connect->set_charset("utf8");
         if($connect->connect_errno!=0){
             throw new Exception(mysqli_connect_errno());
         }else{

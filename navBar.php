@@ -10,6 +10,7 @@
         if(isset($_SESSION['loggedin'])){
             if($_SESSION['admin']==1) {
                 echo "<span class=\"navBarLogin\" onclick=\"enterMatch()\">Wprowadź kolejkę</span>";
+                echo "<li class=\"navBar\"><a href=\"enterScore.php\">Wprowadź wynik</a></li>";
             }
             echo "<span class=\"navBarLogin\" onclick=\"logout()\">Wyloguj</span>";
         }else{

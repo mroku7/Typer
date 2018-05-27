@@ -12,11 +12,11 @@ function logout() {
 }
 
 function enterMatch() {
-    window.location.href='enterFix.php';
+    //window.location.href='enterFix.php';
 
 }
 
-function newMatch() {
-
+function enterScore() {
+    window.location.href='enterScore.php';
 
 }
