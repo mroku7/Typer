@@ -95,7 +95,7 @@ array_push($scoreTab, $_POST['0'], $_POST['1'], $_POST['2'], $_POST['3'], $_POST
                 if($result->num_rows>0) {
                     $a=-1;
                     while($row = $result->fetch_assoc()){
-                        echo $row['HomeTeam']. "      <input name=".++$a." type=\"number\" min=\"0\" max=\"9\">"." vs "."<input name=".++$a." type=\"number\" min=\"0\" max=\"9\">      ".$row['AwayTeam']."<br>";
+                        echo "<div class='line'><div id='left'><div class='homeLabels'><label class='teamNameH'>". $row['HomeTeam']."</label></div>"."<div class='homeInput'><input class='inputNumberH' name=".++$a." type=\"number\" min=\"0\" max=\"9\"></div></div>"." vs "."<div id='right'><div class='awayInput'><input class='inputNumberA' name=".++$a." type=\"number\" min=\"0\" max=\"9\"></div>"."<div class='awayLabels'><label class='teamNameA'>".$row['AwayTeam']."</label></div></div></div>";
                         array_push($idd, $row['id']);
 
 
@@ -103,13 +103,14 @@ array_push($scoreTab, $_POST['0'], $_POST['1'], $_POST['2'], $_POST['3'], $_POST
                         $_SESSION['idm']=$idd;
                     $connect->close();
                     $_SESSION['created']=1;
+                    echo "<input type=\"submit\">";
             }
         }
 
 
     }
     ?>
-        <input type="submit">
+
     </form>
 </div>
 <script>

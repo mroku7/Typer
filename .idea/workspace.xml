@@ -4,9 +4,8 @@
     <list default="true" id="3b269603-e5b4-48a5-98f0-9bd9eb255b71" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/enterBet.php" afterPath="$PROJECT_DIR$/enterBet.php" />
-      <change beforePath="$PROJECT_DIR$/enterFix.php" afterPath="$PROJECT_DIR$/enterFix.php" />
+      <change beforePath="$PROJECT_DIR$/enterScore.php" afterPath="$PROJECT_DIR$/enterScore.php" />
       <change beforePath="$PROJECT_DIR$/js/slideTab.js" afterPath="$PROJECT_DIR$/js/slideTab.js" />
-      <change beforePath="$PROJECT_DIR$/navBar.php" afterPath="$PROJECT_DIR$/navBar.php" />
       <change beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,52 +17,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mainContent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainContent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navBar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navBar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="79" lean-forward="false" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="slideTab.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/slideTab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enterScore.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enterScore.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enterScore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="2720">
+              <caret line="160" column="10" lean-forward="true" selection-start-line="160" selection-start-column="10" selection-end-line="160" selection-end-column="10" />
               <folding>
-                <marker date="1527316550606" expanded="true" signature="550:590" ph="SELECT DISTI... match" />
-                <marker date="1527316550606" expanded="true" signature="1819:1877" ph="UPDATE `match`... " />
-                <marker date="1527316550606" expanded="true" signature="1819:1885" ph="UPDATE `match`... " />
-                <marker date="1527316550606" expanded="true" signature="1826:1877" ph="INSERT INTO `bet`... " />
-                <marker date="1527316550606" expanded="true" signature="2121:2149" ph="SELECT id, u... users" />
-                <marker date="1527316550606" expanded="true" signature="2590:2657" ph="SELECT match... bet" />
-                <marker date="1527316550606" expanded="true" signature="2590:2672" ph="SELECT match... bet" />
-                <marker date="1527316550606" expanded="true" signature="2590:2673" ph="SELECT match... bet" />
-                <marker date="1527316550606" expanded="true" signature="2590:2677" ph="SELECT match... bet" />
-                <marker date="1527316550606" expanded="true" signature="4114:4158" ph="SELECT * FRO... match" />
+                <marker date="1527446979298" expanded="true" signature="550:590" ph="SELECT DISTI... match" />
+                <marker date="1527446979298" expanded="true" signature="1819:1877" ph="UPDATE `match`... " />
+                <marker date="1527446979298" expanded="true" signature="1819:1885" ph="UPDATE `match`... " />
+                <marker date="1527446979298" expanded="true" signature="1826:1877" ph="INSERT INTO `bet`... " />
+                <marker date="1527446979298" expanded="true" signature="2121:2149" ph="SELECT id, u... users" />
+                <marker date="1527446979298" expanded="true" signature="2590:2657" ph="SELECT match... bet" />
+                <marker date="1527446979298" expanded="true" signature="2590:2672" ph="SELECT match... bet" />
+                <marker date="1527446979298" expanded="true" signature="2590:2673" ph="SELECT match... bet" />
+                <marker date="1527446979298" expanded="true" signature="2590:2677" ph="SELECT match... bet" />
+                <marker date="1527446979298" expanded="true" signature="4114:4158" ph="SELECT * FRO... match" />
               </folding>
             </state>
           </provider>
@@ -72,7 +61,7 @@
       <file leaf-file-name="classes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
+            <state relative-caret-position="935">
               <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
               <folding />
             </state>
@@ -83,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/enterFix.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <marker date="1527252760185" expanded="true" signature="1254:1327" ph="INSERT INTO `match`... " />
                 <marker date="1527252760185" expanded="true" signature="1254:1328" ph="INSERT INTO match... " />
@@ -117,16 +106,27 @@
       <file leaf-file-name="enterBet.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enterBet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="2" />
+            <state relative-caret-position="677">
+              <caret line="97" column="63" lean-forward="false" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
               <folding>
-                <marker date="1527253158107" expanded="true" signature="412:452" ph="SELECT DISTI... match" />
-                <marker date="1527253158107" expanded="true" signature="1578:1604" ph="INSERT INTO `bet`... " />
-                <marker date="1527253158107" expanded="true" signature="1578:1610" ph="INSERT INTO `bet`... " />
-                <marker date="1527253158107" expanded="true" signature="1578:1611" ph="INSERT INTO `bet`... " />
-                <marker date="1527253158107" expanded="true" signature="1578:1628" ph="INSERT INTO `bet`... " />
-                <marker date="1527253158107" expanded="true" signature="1578:1640" ph="INSERT INTO `bet`... " />
+                <marker date="1527513420233" expanded="true" signature="412:452" ph="SELECT DISTI... match" />
+                <marker date="1527513420233" expanded="true" signature="1578:1604" ph="INSERT INTO `bet`... " />
+                <marker date="1527513420233" expanded="true" signature="1578:1610" ph="INSERT INTO `bet`... " />
+                <marker date="1527513420233" expanded="true" signature="1578:1611" ph="INSERT INTO `bet`... " />
+                <marker date="1527513420233" expanded="true" signature="1578:1628" ph="INSERT INTO `bet`... " />
+                <marker date="1527513420233" expanded="true" signature="1578:1640" ph="INSERT INTO `bet`... " />
+                <marker date="1527513420233" expanded="true" signature="2562:2606" ph="SELECT * FRO... match" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="241" column="21" lean-forward="false" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,6 +166,8 @@
     <findStrings>
       <find>window.</find>
       <find>idm</find>
+      <find>butt</find>
+      <find>login</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -196,13 +198,13 @@
         <option value="$PROJECT_DIR$/includes/arrays.php" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/enterFix.php" />
-        <option value="$PROJECT_DIR$/enterBet.php" />
-        <option value="$PROJECT_DIR$/js/slideTab.js" />
         <option value="$PROJECT_DIR$/navBar.php" />
         <option value="$PROJECT_DIR$/classes.php" />
+        <option value="$PROJECT_DIR$/js/slideTab.js" />
         <option value="$PROJECT_DIR$/enterScore.php" />
+        <option value="$PROJECT_DIR$/enterBet.php" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -234,6 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,7 +268,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -324,11 +326,13 @@
       <workItem from="1527230689995" duration="2880000" />
       <workItem from="1527250242315" duration="9480000" />
       <workItem from="1527310616353" duration="6152000" />
+      <workItem from="1527446135921" duration="8362000" />
+      <workItem from="1527511312775" duration="3616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67488000" />
+    <option name="totallyTimeSpent" value="79466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -370,7 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -409,7 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,20 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -513,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -521,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,22 +514,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="79" lean-forward="false" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/arrays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/slideTab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enterScore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="10" lean-forward="true" selection-start-line="160" selection-start-column="10" selection-end-line="160" selection-end-column="10" />
+          <folding>
+            <marker date="1527446979298" expanded="true" signature="550:590" ph="SELECT DISTI... match" />
+            <marker date="1527446979298" expanded="true" signature="1819:1877" ph="UPDATE `match`... " />
+            <marker date="1527446979298" expanded="true" signature="1819:1885" ph="UPDATE `match`... " />
+            <marker date="1527446979298" expanded="true" signature="1826:1877" ph="INSERT INTO `bet`... " />
+            <marker date="1527446979298" expanded="true" signature="2121:2149" ph="SELECT id, u... users" />
+            <marker date="1527446979298" expanded="true" signature="2590:2657" ph="SELECT match... bet" />
+            <marker date="1527446979298" expanded="true" signature="2590:2672" ph="SELECT match... bet" />
+            <marker date="1527446979298" expanded="true" signature="2590:2673" ph="SELECT match... bet" />
+            <marker date="1527446979298" expanded="true" signature="2590:2677" ph="SELECT match... bet" />
+            <marker date="1527446979298" expanded="true" signature="4114:4158" ph="SELECT * FRO... match" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/enterFix.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
           <folding>
             <marker date="1527252760185" expanded="true" signature="1254:1327" ph="INSERT INTO `match`... " />
             <marker date="1527252760185" expanded="true" signature="1254:1328" ph="INSERT INTO match... " />
@@ -574,59 +609,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/enterBet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="2" />
+        <state relative-caret-position="677">
+          <caret line="97" column="63" lean-forward="false" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
           <folding>
-            <marker date="1527253158107" expanded="true" signature="412:452" ph="SELECT DISTI... match" />
-            <marker date="1527253158107" expanded="true" signature="1578:1604" ph="INSERT INTO `bet`... " />
-            <marker date="1527253158107" expanded="true" signature="1578:1610" ph="INSERT INTO `bet`... " />
-            <marker date="1527253158107" expanded="true" signature="1578:1611" ph="INSERT INTO `bet`... " />
-            <marker date="1527253158107" expanded="true" signature="1578:1628" ph="INSERT INTO `bet`... " />
-            <marker date="1527253158107" expanded="true" signature="1578:1640" ph="INSERT INTO `bet`... " />
+            <marker date="1527513420233" expanded="true" signature="412:452" ph="SELECT DISTI... match" />
+            <marker date="1527513420233" expanded="true" signature="1578:1604" ph="INSERT INTO `bet`... " />
+            <marker date="1527513420233" expanded="true" signature="1578:1610" ph="INSERT INTO `bet`... " />
+            <marker date="1527513420233" expanded="true" signature="1578:1611" ph="INSERT INTO `bet`... " />
+            <marker date="1527513420233" expanded="true" signature="1578:1628" ph="INSERT INTO `bet`... " />
+            <marker date="1527513420233" expanded="true" signature="1578:1640" ph="INSERT INTO `bet`... " />
+            <marker date="1527513420233" expanded="true" signature="2562:2606" ph="SELECT * FRO... match" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/arrays.php">
+    <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="589">
+          <caret line="241" column="21" lean-forward="false" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enterScore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <marker date="1527316550606" expanded="true" signature="550:590" ph="SELECT DISTI... match" />
-            <marker date="1527316550606" expanded="true" signature="1819:1877" ph="UPDATE `match`... " />
-            <marker date="1527316550606" expanded="true" signature="1819:1885" ph="UPDATE `match`... " />
-            <marker date="1527316550606" expanded="true" signature="1826:1877" ph="INSERT INTO `bet`... " />
-            <marker date="1527316550606" expanded="true" signature="2121:2149" ph="SELECT id, u... users" />
-            <marker date="1527316550606" expanded="true" signature="2590:2657" ph="SELECT match... bet" />
-            <marker date="1527316550606" expanded="true" signature="2590:2672" ph="SELECT match... bet" />
-            <marker date="1527316550606" expanded="true" signature="2590:2673" ph="SELECT match... bet" />
-            <marker date="1527316550606" expanded="true" signature="2590:2677" ph="SELECT match... bet" />
-            <marker date="1527316550606" expanded="true" signature="4114:4158" ph="SELECT * FRO... match" />
-          </folding>
         </state>
       </provider>
     </entry>

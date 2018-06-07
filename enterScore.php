@@ -149,13 +149,14 @@ if(isset($_POST['0'])){
                         $_SESSION['idm']=$idd;
                         $connect->close();
                         $_SESSION['created']=1;
+                        echo "<input type=\"submit\">";
                     }
                 }
 
 
             }
             ?>
-            <input type="submit">
+
         </form>
     </div>
     <script>

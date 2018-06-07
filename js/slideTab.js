@@ -12,7 +12,7 @@ function logout() {
 }
 
 function enterMatch() {
-    //window.location.href='enterFix.php';
+    window.location.href='enterFix.php';
 
 }
 

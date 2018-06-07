@@ -160,15 +160,148 @@
     margin-bottom: 10px;
 }
 
-.addMatches{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width:50%;
-    margin:0 auto;
-}
-.addMatchesDiv{
+/*.addMatches{*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    /*margin: auto;*/
 
-    width:auto;
-    margin:0 auto;
+
+/*}*/
+/*.addMatchesDiv{*/
+
+    /*width:auto;*/
+
+    /*margin: 0 auto;*/
+/*}*/
+
+
+.inputNumberH , .inputNumberA {
+    border: 3px solid #555;
+    /*text-align: center;*/
+
+
+
+
 }
+/*#div{*/
+    /*display: flex;*/
+    /*!*horiz-align: center;*!*/
+    /*!*vertical-align: middle;*!*/
+    /*!*display: flex;*!*/
+    /*!*align-items: center;*!*/
+    /*!*vertical-align: center;*!*/
+    /*!*text-align: right;*!*/
+
+/*}*/
+.div{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*margin: 0 auto;*/
+}
+.addMatches {
+    /*align-items: center;*/
+    /*width: 100%;*/
+    /*display: inline-block;*/
+    /*horiz-align: center;*/
+    /*position: absolute;*/
+    /*width: 50%;*/
+    /*margin: 0 auto;*/
+
+    /*border: 1px solid red;*/
+    /*position: relative;*/
+    /*width: 615px;*/
+    /*border: solid 1px #aaa;*/
+    /*text-align: center;*/
+    /*font-size: 20px;*/
+    /*letter-spacing: 35px;*/
+    /*white-space: nowrap;*/
+    /*line-height: 12px;*/
+/*gggggggggggooooooooooooooooooooooooooodddddddddddddddd*/
+
+
+}
+
+
+.line{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right: 10px;
+}
+#left{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+
+.homeLabels{
+    border: solid 1px red;
+    margin-left: 0%;
+    margin-right: auto;
+    text-align: left;
+}
+.awayLabels{
+    margin-right: 0px;
+    margin-left: auto;
+    text-align: right;
+}
+
+
+.homeInput{
+
+    alignment: left;
+
+}
+
+.awayInput{
+    alignment: right;
+}
+
+
+select {
+    display: block;
+    margin: 0 auto;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    font-size: small;
+    font-style: inherit;
+}
+
+/*input[type=submit]{*/
+
+    /*display: block;*/
+    /*margin: auto;*/
+    /*!*margin-top: 10px;*!*/
+    /*!*margin-right: 30px;*!*/
+    /*background-color: #a3a3a3;*/
+    /*border-radius: 10px;*/
+    /*border-color: black;*/
+    /*font-size: medium;*/
+
+
+/*}*/
+/*form{*/
+    /*display: table-column;*/
+    /*vertical-align: middle;*/
+    /*width: 500px;*/
+    /*border: 1px solid red;*/
+    /*align-items: center;*/
+/*}*/
+
+ /*.div .teamNameA {*/
+    /*display: block;*/
+    /*width: 10px;*/
+    /*text-align: right;*/
+/*}*/
 
