@@ -10,7 +10,24 @@ if(!isset($_SESSION['loggedin'])){
 $matchScoreTab = array();
 function calculateScore($matchTab, $bet ){
 
-        echo $matchTab->matchId;
+       foreach ($matchTab as $match){
+           if($match -> matchId == $bet -> matchId){
+               if(($match -> homeScore == $bet -> homeScore)&&($match -> awayScore == $bet -> awayScore)){
+                   return 3;
+               }
+               if(($match -> homeScore > $match -> awayScore) && ($bet -> homeScore > $bet -> awayScore)){
+                   return 1;
+               }
+               if(($match -> homeScore < $match -> awayScore) && ($bet -> homeScore < $bet -> awayScore)){
+                   return 1;
+               }
+               if(($match -> homeScore == $match -> awayScore) && ($bet -> homeScore == $bet -> awayScore)){
+                   return 1;
+               }
+               return 0;
+
+           }
+       }
 
 
 
@@ -82,23 +99,33 @@ if(isset($_POST['0'])){
             }
             foreach($playersArray as $key => $value)
             {
+                $summary =0;
+                $playerScore = 0;
                 $fx = $_GET['sel'];
-                $result = $connect->query("SELECT matchId, homeScore, awayScore FROM `bet` WHERE userId='$key' AND fixtureNr='$fx'");
+                $result = $connect->query("SELECT matchId, matchId, homeScore, awayScore FROM `bet` WHERE userId='$key' AND fixtureNr='$fx'");
                 if($result->num_rows>0) {
-                    $playerScore = 0;
                     while($row = $result->fetch_assoc()) {
                         $o = $key;
                         $t = $fx;
                         $tr = $row['homeScore'];
                         $fo = $row['awayScore'];
+                        $mid  =$row['matchId'];
 
-                        $bet = new Bet($o, $t, $tr, $fo);
+                        $bet = new Bet($o, $mid, $t, $tr, $fo);
                         $playerScore += calculateScore($matchScoreTab, $bet);
-
                     }
-
+                    $connect->query("INSERT INTO `score` VALUES ($key, $t, $playerScore);");
                    }
+                $result = $connect->query("SELECT `score` FROM `score` WHERE playerId='$o' AND fixtureId='99'");
+                if($result->num_rows>0) {
+                    foreach ($result as $r){
+                        $summary = $r['score'];
+                    }
+                }
+                $summary += $playerScore;
 
+
+                $connect->query("UPDATE `score` SET score='$summary' WHERE playerId='$o' AND fixtureId='99';");
             }
 
 
@@ -125,7 +152,7 @@ if(isset($_POST['0'])){
         }
         ?>
     </select>
-    <div id="div">
+    <div class="inputContainer">
         <form class="addMatches" method="post">
             <?php
             if(isset($_GET['sel'])){
@@ -141,7 +168,7 @@ if(isset($_POST['0'])){
                     if($result->num_rows>0) {
                         $a=-1;
                         while($row = $result->fetch_assoc()){
-                            echo $row['HomeTeam']. "      <input name=".++$a." type=\"number\" min=\"0\" max=\"9\">"." vs "."<input name=".++$a." type=\"number\" min=\"0\" max=\"9\">      ".$row['AwayTeam']."<br>";
+                            echo "<div class='wrap'><label class='teamNameH'>". $row['HomeTeam']."</label>"."<input class='inputNumber' name=".++$a." type=\"number\" min=\"0\" max=\"9\"></div>".""."<div class='wrap'><input class='inputNumber' name=".++$a." type=\"number\" min=\"0\" max=\"9\">"."<label class='teamNameA'>".$row['AwayTeam']."</label></div>";
                             array_push($idd, $row['id']);
 
 
@@ -149,7 +176,7 @@ if(isset($_POST['0'])){
                         $_SESSION['idm']=$idd;
                         $connect->close();
                         $_SESSION['created']=1;
-                        echo "<input type=\"submit\">";
+                        echo "<input type=\"submit\" class='inputButton'>";
                     }
                 }
 

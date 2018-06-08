@@ -5,11 +5,13 @@ class Bet{
 
     var $playerId;
     var $fixtureNr;
+    var $matchId;
     var $homeScore;
     var $awayScore;
 
-    function Bet($pId, $fNr, $hS, $aS){
+    function Bet($pId, $mId, $fNr, $hS, $aS){
         $this ->playerId= $pId;
+        $this -> matchId = $mId;
         $this -> fixtureNr=$fNr;
         $this ->homeScore=$hS;
         $this ->awayScore=$aS;
@@ -59,8 +61,18 @@ class Match{
 
     }
 
+}
 
+class Score{
+    var $playerId;
+    var $fixtureId;
+    var $score;
 
+    function Score($pId, $fId, $score){
+        $this ->playerId = $pId;
+        $this -> fixtureId = $fId;
+        $this -> score = $score;
+    }
 
 
 }

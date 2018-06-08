@@ -1,7 +1,9 @@
 
 #banner {
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: #111111;
+    margin-bottom: 0px;
 }
 
 #navBar {
@@ -10,6 +12,7 @@
 }
 
 #biggestDiv {
+    min-height: 1000px;
     background-color: grey;
 }
 
@@ -24,6 +27,8 @@
     margin: 0 auto;
     background-color: white;
     box-shadow: 2px 4px 10px 4px black;
+    margin-bottom: 0px;
+
 
 }
 
@@ -40,6 +45,7 @@
     margin: 0 10px;
     outline: solid 2px black;
     transition-duration: 0.4s;
+    margin-top: 0px;
 }
 
 .navBar > a:link, .navBar > a:visited {
@@ -68,7 +74,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: #2c292d; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -159,112 +165,51 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-/*.addMatches{*/
-    /*padding-top: 10px;*/
-    /*padding-bottom: 10px;*/
-    /*margin: auto;*/
-
-
-/*}*/
-/*.addMatchesDiv{*/
-
-    /*width:auto;*/
-
-    /*margin: 0 auto;*/
-/*}*/
-
-
-.inputNumberH , .inputNumberA {
-    border: 3px solid #555;
-    /*text-align: center;*/
-
-
-
-
-}
-/*#div{*/
-    /*display: flex;*/
-    /*!*horiz-align: center;*!*/
-    /*!*vertical-align: middle;*!*/
-    /*!*display: flex;*!*/
-    /*!*align-items: center;*!*/
-    /*!*vertical-align: center;*!*/
-    /*!*text-align: right;*!*/
-
-/*}*/
-.div{
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*margin: 0 auto;*/
-}
-.addMatches {
-    /*align-items: center;*/
-    /*width: 100%;*/
-    /*display: inline-block;*/
-    /*horiz-align: center;*/
-    /*position: absolute;*/
-    /*width: 50%;*/
-    /*margin: 0 auto;*/
-
-    /*border: 1px solid red;*/
-    /*position: relative;*/
-    /*width: 615px;*/
-    /*border: solid 1px #aaa;*/
-    /*text-align: center;*/
-    /*font-size: 20px;*/
-    /*letter-spacing: 35px;*/
-    /*white-space: nowrap;*/
-    /*line-height: 12px;*/
-/*gggggggggggooooooooooooooooooooooooooodddddddddddddddd*/
-
-
+.wrap {
+    width: 50%;
+    float: left;
 }
 
 
-.line{
+/* left */
+.wrap:nth-of-type(2n+1) {
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
 }
-#right{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-right: 10px;
+.wrap:nth-of-type(2n+1) label{float:left;}
+.wrap:nth-of-type(2n+1) input{float:right;}
+
+/* right */
+.wrap:nth-of-type(2n) {
+
 }
-#left{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-right: 10px;
-    margin-left: 0px;
+.wrap:nth-of-type(2n) input {float:left;}
+.wrap:nth-of-type(2n) label {float:right;}
+
+
+
+.inputContainer{
+    width: 40%;
+    margin: 0 auto;
+    display: table;
+    font-size: x-large;
 }
-
-
-.homeLabels{
-    border: solid 1px red;
-    margin-left: 0%;
-    margin-right: auto;
-    text-align: left;
+.inputNumber{
+    max-width: 50px;
+    font-size: x-large;
 }
-.awayLabels{
-    margin-right: 0px;
-    margin-left: auto;
-    text-align: right;
-}
-
-
-.homeInput{
-
-    alignment: left;
+.inputButton{
+    max-width: 90px;
+    width: 20%;
+    margin: 10px 40% 10px 40%;
+    font-size: large;
+    border-radius: 8px;
 
 }
 
-.awayInput{
-    alignment: right;
+.fixInput{
+    max-width: 150px;
 }
+
 
 
 select {
@@ -278,30 +223,37 @@ select {
     font-style: inherit;
 }
 
-/*input[type=submit]{*/
+.tableContainer{
+    width: 40%;
+    margin: 0 auto;
+    display: table;
+}
+table{
+    margin: 0 auto;
+}
 
-    /*display: block;*/
-    /*margin: auto;*/
-    /*!*margin-top: 10px;*!*/
-    /*!*margin-right: 30px;*!*/
-    /*background-color: #a3a3a3;*/
-    /*border-radius: 10px;*/
-    /*border-color: black;*/
-    /*font-size: medium;*/
+th{
+    background-color: #b7b7b7;
+    font-size: 30px;
+}
+th:hover{
+    cursor: pointer;
+}
+tr{
+    font-size: 20px;
+    text-align: left;
+    background-color: #d1d1d1;
+}
 
+td:nth-of-type(2) {
+    text-align: center;
+}
 
-/*}*/
-/*form{*/
-    /*display: table-column;*/
-    /*vertical-align: middle;*/
-    /*width: 500px;*/
-    /*border: 1px solid red;*/
-    /*align-items: center;*/
-/*}*/
+h1{
+    margin: 20px auto 20px auto;
+    font-size: 10em;
+}
 
- /*.div .teamNameA {*/
-    /*display: block;*/
-    /*width: 10px;*/
-    /*text-align: right;*/
-/*}*/
-
+h1, h2{
+    color: white;
+}

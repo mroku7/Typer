@@ -62,18 +62,18 @@ if(isset($_POST['fixNr'])){
 
 
 ?>
-<div class="addMatchesDiv">
+<div class="inputContainer">
     <form class="addMatches" method="post">
         Numer kolejki <input type="number" min="1" max="30" name="fixNr" class="fixNr"><br>
-        Mecz 1. <input type="text" name="team1"> vs. <input type="text" name="team2"><br>
-        Mecz 2. <input type="text" name="team3"> vs. <input type="text" name="team4"><br>
-        Mecz 3. <input type="text" name="team5"> vs. <input type="text" name="team6"><br>
-        Mecz 4. <input type="text" name="team7"> vs. <input type="text" name="team8"><br>
-        Mecz 5. <input type="text" name="team9"> vs. <input type="text" name="team10"><br>
-        Mecz 6. <input type="text" name="team11"> vs. <input type="text" name="team12"><br>
-        Mecz 7. <input type="text" name="team13"> vs. <input type="text" name="team14"><br>
-        Mecz 8. <input type="text" name="team15"> vs. <input type="text" name="team16"><br>
-        <input type="submit" value="Zatwierdź">
+        Mecz 1. <input type="text" name="team1" class="fixInput"> vs. <input type="text" name="team2" class="fixInput"><br>
+        Mecz 2. <input type="text" name="team3" class="fixInput"> vs. <input type="text" name="team4" class="fixInput"><br>
+        Mecz 3. <input type="text" name="team5" class="fixInput"> vs. <input type="text" name="team6" class="fixInput"><br>
+        Mecz 4. <input type="text" name="team7" class="fixInput"> vs. <input type="text" name="team8" class="fixInput"><br>
+        Mecz 5. <input type="text" name="team9" class="fixInput"> vs. <input type="text" name="team10" class="fixInput"><br>
+        Mecz 6. <input type="text" name="team11" class="fixInput"> vs. <input type="text" name="team12" class="fixInput"><br>
+        Mecz 7. <input type="text" name="team13" class="fixInput"> vs. <input type="text" name="team14" class="fixInput"><br>
+        Mecz 8. <input type="text" name="team15" class="fixInput"> vs. <input type="text" name="team16" class="fixInput"><br>
+        <input type="submit" value="Zatwierdź" class="inputButton">
 
 
     </form>

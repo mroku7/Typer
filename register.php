@@ -89,12 +89,18 @@ include ('slider.php');
                 if($allOk==true){
                     if($connect->query("INSERT INTO users VALUES (NULL,'$nick','$passHash','$email',0)")){
                         $_SESSION['registerDone']=true;
-                        header("Location: welcome.php");
+
 
 
                     }else{
                         throw new Exception(($connect->error));
                     }
+                    $result = $connect->query("SELECT MAX(id) AS id FROM `users`");
+                    $row = mysqli_fetch_array($result);
+                    $d = $row['id'];
+                    $connect->query("INSERT INTO `score` VALUES('$d',99,0);");
+                    header("Location: welcome.php");
+
                 }
                 $connect->close();
             }

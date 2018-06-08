@@ -17,11 +17,13 @@ session_start();
 <body>
 <div id="biggestDiv">
     <div id="mainDiv">
-        <div>
+
             <div id="banner">
-                <a href="index.php" title="Return to Home">
-                    <img src="img/banner.png">
-                </a>
+<!--                <a href="index.php" title="Return to Home">-->
+<!--                    <img src="img/banner.png">-->
+<!--                </a>-->
+                <h1>Typer</h1>
+                <h2>- polskiej ekstraklasy</h2>
+
             </div>
-        </div>
 

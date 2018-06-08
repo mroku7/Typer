@@ -20,3 +20,4 @@ function enterScore() {
     window.location.href='enterScore.php';
 
 }
+
